@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+body {
+  overflow: hidden;
+  margin: 0;
+}
+
+#dashboard .row {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+#dashboard .row ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+#dashboard .row ul li {
+  list-style: none;
+}
+#dashboard #viewInfo p {
+  font-weight: 700;
+}
+
+#login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#login #one {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+}
+#login #two {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+}
+#login #two form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+#login #two form .container {
+  border-radius: 0px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+#login #two form .container input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+#login #two form .container button {
+  border-radius: 0px;
+}
+#login #admin {
+  font-family: "Ubuntu", sans-serif;
+}
+#login #admin .form-control {
+  gap: 10px;
+  display: flex;
+}
+
+#sellerImages #ModalImages #supportImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+#sellerImages #ModalImages #supportImages a {
+  text-decoration: none;
+  color: #333333;
+  border-bottom: 1px solid #333333;
+}
+#sellerImages #ModalImages ul li {
+  list-style: none;
+}
+#sellerImages #ModalImages ul hr {
+  font-weight: 500;
+}
+#sellerImages #mainImage a {
+  text-decoration: none;
+  color: #333333;
+}
+
+#userInfo .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
